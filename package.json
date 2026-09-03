@@ -3,12 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
- "homepage": "https://bhupendrakushwah.github.io/portfolio/",
-   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+  "homepage": "https://bhupendrakushwah.github.io/portfolio/",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
@@ -29,7 +31,6 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
-    "@vitejs/plugin-react": "^6.1.0",
     "autoprefixer": "^10.4.21",
     "babel-plugin-react-compiler": "^1.0.0",
     "esbuild": "^0.28.2",
